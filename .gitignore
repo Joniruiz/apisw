@@ -1,0 +1,8 @@
+/node_modules
+/dist/build
+/dist/database
+*.tmp
+.vscode/
+database.sqlite
+/src/database/testdatabase.sqlite
+.env

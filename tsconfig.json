@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "experimentalDecorators": true,                   
+    "emitDecoratorMetadata": true,                    
+    "module": "commonjs",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,            
+    "strict": true,                                      
+    "strictPropertyInitialization": false,                      
+    "skipLibCheck": true                                 
+  },
+  "include": [
+    "./src/build/*.ts",
+    "./src/database/data-source.ts",
+    "src/build/routes/*.ts",
+  ],
+  "exclude": [
+    "node_modules",
+    "./src/tests/helpers.ts"
+  ]
+}
